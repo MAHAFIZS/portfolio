@@ -1,0 +1,8 @@
+﻿.profile-photo {
+    width: 20px; /* Adjust to desired size */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #333; /* Adds a border */
+}
