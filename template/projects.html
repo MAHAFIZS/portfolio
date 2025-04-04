@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - M A HAFIZ</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+
+        .content {
+            padding: 50px;
+        }
+
+        .project-section {
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .details {
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: none;
+        }
+
+        .toggle-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>M A HAFIZ</h1>
+        <p>Robotics Engineer | AI & Control Systems</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="education.html">Education & Internship</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="professional.html">Professional Experience</a></li>
+                <li><a href="Certificates and CV.html">Certificates and CV</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Projects</h2>
+
+        <div class="project-section">
+            <p class="project-title">Colorful Object Sorting by Robotic Hand using ROS</p>
+            <button class="toggle-btn" onclick="toggleDetails('project1')">View Details</button>
+            <div class="details" id="project1">
+                <p>Implemented a robotic hand using ROS to sort objects based on color detection.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Automatic Car using Image Processing and Machine Learning</p>
+            <button class="toggle-btn" onclick="toggleDetails('project2')">View Details</button>
+            <div class="details" id="project2">
+                <p>Developed an autonomous car model utilizing image processing and deep learning techniques.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Mine Sweeping Robot (Raspberry Pi)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project3')">View Details</button>
+            <div class="details" id="project3">
+                <p>
+                    Designed a robot using Raspberry Pi that detects and removes mines for security applications.
+                    You can find me in the video at
+                    <a href="https://www.youtube.com/watch?v=6KEIdI9ZEfY&t=123s" target="_blank"><strong>2:03</strong></a>.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="project-section">
+            <p class="project-title">Fighting Robot for Robo-fight Competition (Python)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project4')">View Details</button>
+            <div class="details" id="project4">
+                <p>Developed a robot with competitive fighting capabilities controlled via Python programming.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Car Speed Measurement Device (Microcontroller)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project5')">View Details</button>
+            <div class="details" id="project5">
+                <p>Built a microcontroller-based device to measure the speed of moving vehicles.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Arduino-based Automatic Plant Irrigation System</p>
+            <button class="toggle-btn" onclick="toggleDetails('project6')">View Details</button>
+            <div class="details" id="project6">
+                <p>Designed an automated irrigation system using Arduino to optimize water usage for plants.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">EMG Signal Analysis and Healthy Person Detection (MATLAB)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project7')">View Details</button>
+            <div class="details" id="project7">
+                <p>Analyzed EMG signals to differentiate between healthy and abnormal muscle activity.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Implementation of Machine Learning Classifiers (Python)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project8')">View Details</button>
+            <div class="details" id="project8">
+                <p>Implemented KNN, Logistic Regression, Kernel SVM, and GMM for data classification.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Optimization Schemes for Stochastic Gradient Descent (Python, PyCharm)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project9')">View Details</button>
+            <div class="details" id="project9">
+                <p>Explored optimization techniques for improving SGD performance in deep learning models.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Step-by-Step Implementation of Convolutional Neural Network (Python, PyCharm)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project10')">View Details</button>
+            <div class="details" id="project10">
+                <p>Developed a CNN model from scratch to understand convolution, pooling, and activation functions.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Banking Distress Prediction via Machine Learning (MATLAB)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project11')">View Details</button>
+            <div class="details" id="project11">
+                <p>Applied machine learning techniques to predict financial distress in banks.</p>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <p class="project-title">Design and Analysis of n-bit Comparator in Cadence Virtuoso (VHDL)</p>
+            <button class="toggle-btn" onclick="toggleDetails('project12')">View Details</button>
+            <div class="details" id="project12">
+                <p>Designed an n-bit comparator circuit and analyzed its performance in Cadence Virtuoso.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            var details = document.getElementById(id);
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
